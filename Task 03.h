@@ -34,7 +34,7 @@ public:
     }
 };
 
-// Function to hear the sound of an animal
+
 void hearSound(Animal& animal) {
     animal.makeSound();
 }

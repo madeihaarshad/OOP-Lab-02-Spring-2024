@@ -3,13 +3,12 @@ int main() {
     Lion l;
     Elephant e;
     Monkey m;
-    Bird b; // New instance of Bird
-
-    // Demonstrate polymorphism by using hearSound function
+    Bird b; 
+    
     hearSound(l);
     hearSound(e);
     hearSound(m);
-    hearSound(b); // Demonstrate the addition of Bird without changing hearSound function
+    hearSound(b); 
 
     return 0;
 }
